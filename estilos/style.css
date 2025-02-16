@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+section.celular {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.celular > img {
+   height: 500px;
+   width: 250px;
+}
+
+section.telahome > img {
+    width: 215px;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.redes-sociais {
+    text-align: right;
+}
+
+section.redes-sociais > img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 4px 6px 10px black;
+}   
+
+.redes-sociais > img:hover {
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+
+
+
