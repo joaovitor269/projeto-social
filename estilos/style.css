@@ -29,23 +29,28 @@ section#telefone {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 section#telefone > img {
-   height: 500px;
-   width: 250px;
+   height: 510px;
+   width: 260px;
 }
 
 section.telahome > img {
-    width: 215px;
-    height: 380px;
+    width: 224px;
+    height: 383px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    position: relative;
+    top: 125px;
+    left: 570px;
+    width: 225px;
+    height: 385px;
 }
 
 section#redes-sociais {
