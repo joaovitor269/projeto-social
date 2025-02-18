@@ -26,48 +26,43 @@ main {
 
 section#telefone {
     position: absolute;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-section#telefone > img {
-   height: 510px;
-   width: 260px;
-}
-
-section.telahome > img {
-    width: 224px;
-    height: 383px;
-    position: absolute;
     left: 50%;
-    top: 50%;
     transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 125px;
-    left: 570px;
-    width: 225px;
-    height: 385px;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 471px;
 }
 
 section#redes-sociais {
     text-align: right;
 }
 
-section#redes-sociais > img {
+section#redes-sociais  img {
     width: 50px;
     border-radius: 50%;
     margin: 10px;
-    box-shadow: 4px 6px 10px black;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
 }   
 
-#redes-sociais > img:hover {
-    border: 2px solid white;
-    transition-duration: 0.2s;
+section#redes-sociais  img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.685);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.842);
+    transition: transform 0.3s, border 0.5s;
 }
+
+
+
 
 
 
